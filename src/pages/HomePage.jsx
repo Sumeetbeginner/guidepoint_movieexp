@@ -10,7 +10,7 @@ const HomePage = () => {
   const [error, setError] = useState(null);
   
   // Default search term for initial load
-  const defaultSearch = 'marvel';
+  const defaultSearch = 'avengers';
   const API_KEY = '2ce912f'; 
   
   useEffect(() => {

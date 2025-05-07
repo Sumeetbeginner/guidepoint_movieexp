@@ -28,7 +28,7 @@ const HomePage = () => {
         
         
         const response = await fetch(
-          `http://www.omdbapi.com/?&apikey=${API_KEY}&s=${encodeURIComponent(term)}
+          `https://www.omdbapi.com/?&apikey=${API_KEY}&s=${encodeURIComponent(term)}
 `
         );
         

@@ -10,9 +10,11 @@ A responsive React application that allows users to browse movies, search for sp
 - **Responsive Design**: Works seamlessly on mobile, tablet, and desktop devices
 - **Movie Details**: View detailed information about each movie on a dedicated page
 
+## Note : I didn't used .env for API KEY as its a assignment
+
 ## Demo
 
-[Live Demo]()
+[Live Demo](https://guidepoint-movieexp.vercel.app/)
 
 ## Technologies Used
 

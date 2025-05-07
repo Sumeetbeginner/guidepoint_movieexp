@@ -1,0 +1,71 @@
+/* FavoritesPage.css - Styles for the FavoritesPage component */
+
+.favorites-page {
+    padding-top: 20px;
+  }
+  
+  .favorites-header {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .favorites-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  
+  .no-favorites {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: var(--card-background);
+    border-radius: var(--border-radius);
+    box-shadow: var(--card-shadow);
+  }
+  
+  .no-favorites p {
+    margin-bottom: 15px;
+    color: #777;
+  }
+  
+  .no-favorites p:first-child {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+  
+  /* Empty state illustration */
+  .no-favorites:before {
+    content: '♥';  /* Heart symbol */
+    display: block;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #ddd;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .favorites-page {
+      padding-top: 10px;
+    }
+    
+    .favorites-header {
+      margin-bottom: 20px;
+    }
+    
+    .favorites-header h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+    
+    .no-favorites {
+      padding: 30px 15px;
+    }
+    
+    .no-favorites:before {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+  }

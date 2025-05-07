@@ -1,0 +1,58 @@
+/* SearchBar.css - Styles for the SearchBar component */
+
+.search-bar {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 12px 45px 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    transition: all var(--transition-speed);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar input:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 2px rgba(1, 180, 228, 0.3);
+  }
+  
+  .search-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    transition: color var(--transition-speed);
+  }
+  
+  .search-button:hover {
+    color: var(--secondary-color);
+  }
+  
+  .search-button svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .search-bar input {
+      padding: 10px 40px 10px 12px;
+      font-size: 0.9rem;
+    }
+    
+    .search-button svg {
+      width: 18px;
+      height: 18px;
+    }
+  }

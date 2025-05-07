@@ -97,15 +97,6 @@ movie-explorer/
 - Default search term "avengers" is used for initial load
 - The app handles various error states and loading indicators for better UX
 
-## Future Improvements
-
-- Add pagination for search results
-- Implement filtering by genre, year, etc.
-- Add user authentication to sync favorites across devices
-- Integrate with a movie recommendation API
-- Add dark/light theme toggle
-- Add unit and integration tests
-
 ## License
 
 MIT
